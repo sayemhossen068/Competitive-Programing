@@ -1,18 +1,17 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main () {
-    string x;
+    string s;
+    set<char>desicion;
     
-    cin >> x;
+    cin >> s;
+    for(int i=0; i<s.size(); i++){
+        desicion.insert(s[i]);
+    }
     
-    set<char> uniqueChars(x.begin(), x.end());
-    int size = uniqueChars.size();
-    
-    if(size % 2 == 0) {
+    if(desicion.size() % 2 == 0) {
         cout << "CHAT WITH HER!" << endl;
     } else {
         cout << "IGNORE HIM!" << endl;
     }
-    
-    return 0;
 }
