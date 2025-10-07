@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
     unsigned long long a, b;
-    while (cin >> a >> b) {   // keeps reading until EOF
-        cout << (a ^ b) << endl;  // XOR operation
+    while (cin >> a >> b) {
+        cout << (a ^ b) << endl;
     }
     return 0;
 }
