@@ -10,8 +10,7 @@ int main()
     for (i = 1; i < s.length(); i++)
     {
         if (islower(s[i]))
-        {
-            
+        { 
             break;
         }
     }
