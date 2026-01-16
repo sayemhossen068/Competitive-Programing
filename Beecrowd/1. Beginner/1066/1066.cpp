@@ -6,18 +6,17 @@ int main(){
     for(i=0;i<5;i++){
         cin>>num;
         if(num%2==0){
-                even++;
-            }
-            if(num%2!=0){
-                odd++;
-            }
-            if(0<num){
-                positive++;
-            }
-            if(0>num){
-                negative++;
-            }
-
+            even++;
+        }
+        if(num%2!=0){
+            odd++;
+        }
+        if(0<num){
+            positive++;
+        }
+        if(0>num){
+            negative++;
+        }
     }
     cout<<even<<" valor(es) par(es)"<<endl;
     cout<<odd<<" valor(es) impar(es)"<<endl;
